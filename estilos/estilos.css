@@ -16,11 +16,35 @@ h2{
     background-color: rgb(181, 128, 226);
 }
 
+div.center {
+    margin: 20px auto;
+    text-align: center; 
+    background-color: lightgrey;
+    width: 30%;
+    border: 15px solid rgb(108, 26, 133);  /* dotted, dashed, double, groove, etc */
+    padding: 50px;
+    border-radius: 10px;/* cantos arredondados */
+    box-shadow: 10px 10px 10px #000000ec /* sombra externa termos offset-x offset-y blur-radius spread-radius color;+*/
+}
+
 div{
-    text-align: center;
+    text-align: center; 
 }
 
 p{
     text-align:justify;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+a:link {
+    color: red;
+}
+/* visited link */
+a:visited {
+    color: green;
+}
+/* mouse over link */
+a:hover {
+    color: rgb(211, 157, 236);
+}
+
