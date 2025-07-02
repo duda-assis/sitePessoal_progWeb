@@ -40,7 +40,6 @@
     margin-top: 87px;
     height: 410px;
     width: 350px;
-    border: 2px solid rgb(255, 0, 0);  /* dotted, dashed, double, groove, etc */
 }
 
 .caixaPrincipalInferior{
@@ -56,26 +55,69 @@
 }
 
 .box4 {
-    height: 125px;
+    height: 115px;
     width: 580px;
-    border: 2px solid rgb(255, 0, 0);  /* dotted, dashed, double, groove, etc */
-    margin: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
 }
 
 .box5 {
     height: 125px;
     width: 580px;
-    border: 2px solid rgb(255, 0, 0);  /* dotted, dashed, double, groove, etc */
     margin: 5px;
 }
 
 .box6 {
     margin: 5px;
-    height: 200px;
+    height: 150px;
     width: 580px;
-    border: 2px solid rgb(255, 0, 0);  /* dotted, dashed, double, groove, etc */
+}
+
+.box3 p {
+    text-align: justify;
 }
 
 .box6 p{
     padding: 10px;
+}
+
+.box5 p{
+    padding-left: 10px;
+}
+
+.box4 a{
+    padding-left: 20px;
+}
+
+a:link {
+    color: red;
+}
+/* visited link */
+a:visited {
+    color: green;
+}
+/* mouse over link */
+a:hover {
+    color: rgb(25, 0, 255);
+}
+
+.softskills {
+    text-align: justify;
+}
+
+.softskills h1{
+
+    font-family: 'Times New Roman', Times, serif; 
+    padding-left: 5px;
+
+}
+
+.softskills p{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size:large; 
+    padding-left: 40px;
+
 }
