@@ -15,48 +15,64 @@
 </head>
 
     <body>
-        <h1> Blog da Duda </h1>
-        
-        <div> <img style="border-radius: 50%;" src="imagens/avatar.png" alt="imagem do avatar de Eduarda" title="Meu Avatar" height="200px" width="200px"> </div>
-        
-        <div class="center"> <p style="font-size:large; font-family: 'Times New Roman', Times, serif;"> 
-        <b> Conheça um pouco mais sobre mim (Eduarda Assis) e meu hobbie favorito. </b>
-        </p>
-        </div>
-    
-        <h2> Sobre Mim </h2>
-        <p> 
-            Meu  nome é Eduarda Assis, tenho 18 anos, moro em Cariacica e sou estudante do Instituto Federal do Espírito Santo (IFES). Curso Internet das Coisas integrado ao
-            ensino médio.
-        </p>
-    
-        <h2> Meu hobbie favorito - Dança </h2>
-        <p> 
-            Desde pequena, eu amo dançar! Ao longo da minha vida, experimentei diversos estilos, como ballet clássico e contemporâneo, e, atualmente, pratico mais hiphop. Apesar
-            de ter desenvolvimento muito meu footwork, graças ao hiphop, ainda prefiro trabalho com os braços e mãos, então, toda vez que tenho oportunidade, pratico algo de vogue
-            ou waaking.
-        </p>
+        <header>
+            <h1> Eduarda Assis </h1>
+            <nav>
+            <a href="#section1">Início</a>
+            <a href="#section3"> Meu Hobbie Favorito </a>
+            <a href="#section2"> Minha Instituição</a>
+            <a href="#section4">Contatos</a>
+        </nav>
 
-        <h2> Minha Instituição </h2>
-        <a href="https://serra.ifes.edu.br/" target="_blank">
-            <div style="text-align: center;"> <img src="imagens/serra.png" alt="imagem do ifes campus serra" title="Minha Instituição" height="300px" width="300px"> </div>
-        </a>
+        <img src="imagens/logoSerra.png" alt="Logo IFES">
 
-        <h2> Mais Informações e Conteúdos </h2>
-        
-        <br>
-        
-        <div style="font-family: Arial, Helvetica, sans-serif;"> <a href="tutorial/tutorial_tags.html"> Clique aqui para acessar o Tutorial - TAGS SEMÂNTICAS E ESTRUTURAIS </a> </div>
-        
-        <br>
-        
-        <div style="font-family: Arial, Helvetica, sans-serif;"> <a href="curriculo/curriculo.html" target="_blank"> Currículo Pessoal - Eduarda Assis de Oliveira </a> </div>
-        
-        <br>
-        <br>
+        </header>
 
-        <div> <img src="imagens/logoSerra.png" alt="imagem do ifes campus serra" title="Minha Instituição" height="300px" width="300px"> </div>
+        <div class="layout">
+            <aside>
+                <nav class="nav-aside">
+                    <a href="tutorial/tutorial_tags.html">Tutorial</a>
+                    <a href="https://www.ifes.edu.br/">Ifes</a>
+                    <a href="curriculo/curriculo.html">Currículo</a>
+                </nav>
+            </aside>
+            <main>
+                <section id="section1">
+                    <img src="imagens/avatar.png" alt="avatar">
+                    <div>
+                        <p><b> Meu  nome é Eduarda Assis, tenho 18 anos, 
+                            moro em Cariacica e sou estudante do 
+                            Instituto Federal do Espírito Santo (IFES).
+                            Curso Internet das Coisas integrado ao ensino médio. </b></p>
+                    </div>
+                </section>
+                <section id="section3">
+                    <h2> Meu Hobbie Favorito - Dança </h2>
+                    <p> 
+                        Desde pequena, eu amo dançar! Ao longo da minha vida, experimentei diversos estilos, como ballet clássico e contemporâneo, e, atualmente, pratico mais hiphop. Apesar
+                        de ter desenvolvimento muito meu footwork, graças ao hiphop, ainda prefiro trabalho com os braços e mãos, então, toda vez que tenho oportunidade, pratico algo de vogue
+                        ou waaking.
+                    </p>
+                </section>
+                <section id="section2">
+                    <h2>Minha Instituição</h2>
+                    <a href="https://serra.ifes.edu.br/" target="_blank">
+                        <div style="text-align: center;"> <img src="imagens/serra.png" alt="imagem do ifes campus serra" title="Minha Instituição" height="300px" width="300px"> </div>
+                    </a>
+                </section>
+                <section id="section4">
+                    <h2>Contatos</h2>
+                    <p> <b>Telefone:</b> (27) 9 9694-9612 </p>
+                    <p> <b>E-mail:</b> ifeseduarda@gmail.com </p>
+                </section>
+            </main>
+    </div>
+    <footer>
+            <p>&copy;2025 Eduarda Assis. Todos os direitos reservados - Orientação: prof. Jonathan Toczek</p> 
 
-    </body>
+    </footer>
+                
+
+</body>
 
 </html>
